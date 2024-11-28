@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+  <title>Car Array Example</title>
+  <style>
+    body{
+      text-align: center;
+      align-items: center;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+  </style>
+</head>
+<body>
+    <h1>Cars Arrays</h1>
+    <p>Check the Console</p>
+  <script>
+    let cars = ["toyota", "honda", "mazda", "mitsubishi", "tesla", "lexus"];
+
+    console.log("First item:", cars[0]);
+    console.log("Last item:", cars[cars.length - 1]);
+
+    cars.push("mercedes-benz");
+    console.log("Array after adding 'mercedes-benz':", cars);
+
+    console.log("All items in the array:");
+    for (let i = 0; i < cars.length; i++) {
+      console.log(cars[i]);
+    }
+  </script>
+</body>
+</html>
